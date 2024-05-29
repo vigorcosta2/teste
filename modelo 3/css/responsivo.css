@@ -1,0 +1,133 @@
+
+/* Dispositivo = Computador / Tela = 1281px para computador de Alta resolução */
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* Dispositivo = Notebooks, Computador / Tela = 1025px para 1280px */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* Dispositivo = Tablets, Ipads (Retrato) / Tela =  768px para 1024px */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+
+.titulo{
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+  font-size: 1.4em;}
+
+.sobre{ padding: 9rem 2rem}
+.sobre h1{ font-size: 2em;}
+.sobre h2{ text-align: center;}
+.info-equip{ padding: 2rem;}
+.frase{ padding: 8rem 0 1rem 0; text-align: center;}
+.info-contato li{line-height: 1.4; font-size: 1.2em;}
+
+
+.blog{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;}
+
+.equipamento{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; align-items: center;}
+
+  .plano{
+  display: flex; 
+  flex-direction: column;}
+
+  .contato{
+  display: flex; 
+  flex-direction: column;}
+
+}
+  
+
+
+/* Dispositivo = Tablets, Ipads (Paisagem) / Tela = 768px para 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* Dispositivo = Baixa de resolução Tablets, Celular (Paisagem)/ Tela = 481px para 767px */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* Dispositivo = Celular (Retrato) / Tela = 320px para 479px */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .btn{
+      margin-top:none;
+      font-size: 1em;
+      padding: .4rem;}
+  
+  .slogan{ height: 100vh; padding: 2rem;}
+  .slogan h1{ font-size: 2em;}
+  .slogan h2{ font-size: 1.4em;}
+
+  .titulo{
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    font-size: 1.4em;}
+
+  .figura{ width: 100%; padding: .5rem; }
+  .legenda{
+    background: rgba(0,0,0,0.3);
+    width: 45%;
+    padding: .9rem;
+    font-size: .8em;}
+  .esquerda { top: 18%; left: 10%; }
+  .direita  { top: 43%; right:10%; }
+  .esquerda-2 { bottom: 28%; left: 10%; }
+  .direita-2 { bottom: 3%; right: 10%; }
+
+  .btn-info{ font-size: 1.2em;}
+  .blog-texto{ text-align: center;}
+  .sobre{ padding: 9rem 2rem}
+  .sobre h1{ font-size: 2em;}
+  .sobre h2{ text-align: center;}
+  .info-equip{ padding: 2rem;}
+  .frase{ padding: 8rem 0 1rem 0; text-align: center;}
+  .info-contato li{line-height: 1.4; font-size: 1.2em;}
+
+  
+  .blog{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;}
+
+ 
+    .equipamento{
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center;}
+ 
+    .plano{
+    display: flex; 
+    flex-direction: column;}
+ 
+    .contato{
+    display: flex; 
+    flex-direction: column;}
+  
+}

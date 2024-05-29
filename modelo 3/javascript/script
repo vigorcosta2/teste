@@ -1,0 +1,32 @@
+/*Navegador (alterar cor)*/
+
+const nav = document.querySelector('nav');
+window.addEventListener('scroll',() =>{
+   if(window.scrollY >50){
+    nav.classList.add('sticky');
+   }
+   else  if(window.scrollY <=50){
+    nav.classList.remove('sticky');
+   }
+    
+});
+
+/*Animação*/
+
+window.addEventListener('scroll', animacao);
+
+function animacao() {
+    var animar = document.querySelectorAll('.animacao');
+
+    for (var i = 0; i < animar.length; i++) {
+        var animaheight = window.innerHeight;
+        var animatop = animar[i].getBoundingClientRect().top;
+        var animapoint = 150;
+
+        if (animatop < animaheight - animapoint) {
+            animar[i].classList.add('ativar');
+        } else {
+            animar[i].classList.remove('ativar');
+        }
+    }
+}
